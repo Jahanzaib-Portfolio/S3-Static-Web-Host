@@ -48,50 +48,54 @@ With this setup, you can serve HTML and image files directly from an S3 bucket, 
 ### 3. Copy the Website Endpoint
 - After enabling hosting, copy the **Bucket Website Endpoint** (this is your site URL).  
 
-![Website Endpoint](images/screenshot7.png)
 
 - You might see an error — this happens because the bucket policy isn’t configured yet.  
 
-![Access Denied](images/screenshot8.png)
+![Website Endpoint](images/screenshot7.png)
+
+
 
 ---
 
 ### 4. Configure Bucket Policy
+
 - Go to **Permissions → Bucket Policy**.  
 
-![Bucket Policy Tab](images/screenshot9.png)
+![Access Denied](images/screenshot8.png)
 
 - Use your **bucket ARN number** in the policy.  
 
-![Bucket ARN](images/screenshot10.png)
+![Bucket Policy Tab](images/screenshot9.png)
 
 - Open the **Policy Generator** to create a policy.  
+
+![Bucket ARN](images/screenshot10.png)
 
 ![Policy Generator](images/screenshot11.png)  
 ![Generated Policy](images/screenshot12.png)
 
+![Policy Applied](images/screenshot13.png)
+
 - Apply the policy → Now public users can access your files.  
 
-![Policy Applied](images/screenshot13.png)
+![Live Website](images/screenshot14.png)
+![Error Page](images/screenshot15.png)
 
 ---
 
 ### 5. Verify the Website
 - Open the bucket endpoint in a browser → your webpage is live!  
 
-![Live Website](images/screenshot14.png)
+![Both Pages](images/screenshot16.png)
 
 - Try visiting a missing page → you should see the error page.  
 
-![Error Page](images/screenshot15.png)
+![Final Result](images/screenshot17.png)
 
 - Now both index and error pages are working correctly.  
 
-![Both Pages](images/screenshot16.png)
 
-- Final confirmation of website running.  
 
-![Final Result](images/screenshot17.png)
 
 ---
 
