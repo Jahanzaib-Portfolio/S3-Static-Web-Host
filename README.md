@@ -1,17 +1,17 @@
-# 🌐 S3 Static Website Hosting
+#  S3 Static Website Hosting
 
-## 📖 Project Overview
+##  Project Overview
 This project demonstrates how to host a static website on **Amazon S3** using AWS services.  
 With this setup, you can serve HTML and image files directly from an S3 bucket, making your website **scalable, cost-effective, and highly available**.
 
 ---
 
-## 🛠️ Services Used
+##  Services Used
 - **Amazon S3** → To store and host static website files (HTML and Images).
 
 ---
 
-## 🚀 Steps to Implement
+##  Steps to Implement
 
 ### 1. Create an S3 Bucket
 - Go to **AWS Console → S3 → Create Bucket**.  
@@ -99,14 +99,14 @@ With this setup, you can serve HTML and image files directly from an S3 bucket, 
 
 ---
 
-## 🎯 Benefits
+##  Benefits
 - No servers to manage.  
 - Highly scalable and durable.  
 - Low-cost static site hosting.  
 
 ---
 
-## 🧑‍💻 Key Learnings
+## Key Learnings
 
 ### Amazon S3 Basics
 - How to create and configure an S3 bucket.  
